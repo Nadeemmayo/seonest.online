@@ -1,958 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href="https://seonest.online/" />
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/616/616490.png" type="image/png">
 
-  <title>SEOnest | Premium SEO Strategy & Organic Growth Agency</title>
-  <meta name="description" content="SEOnest helps ambitious brands grow through technical SEO, content strategy, authority development, local SEO and data-led organic search campaigns.">
-  <meta name="author" content="SEOnest">
-  <meta name="robots" content="index, follow, max-image-preview:large">
-  <link rel="canonical" href="https://seonest.online/">
-
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="SEOnest">
-  <meta property="og:title" content="SEOnest | Premium Organic Growth Agency">
-  <meta property="og:description" content="Technical SEO, content strategy and authority development for sustainable organic growth.">
-  <meta property="og:url" content="https://seonest.online/">
-
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="SEOnest | Premium Organic Growth Agency">
-  <meta name="twitter:description" content="Technical SEO, content strategy and authority development for sustainable organic growth.">
-
-  <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-    <defs>
-      <linearGradient id="a" x1="0" y1="0" x2="1" y2="1">
-        <stop stop-color="%2300CDBD"/>
-        <stop offset=".55" stop-color="%235CE1E6"/>
-        <stop offset="1" stop-color="%23F6C453"/>
-      </linearGradient>
-    </defs>
-    <rect width="64" height="64" rx="18" fill="%23071B33"/>
-    <path d="M17 21c0-5 4-9 9-9h21v9H28c-2 0-3 1-3 3s1 3 3 3h9c7 0 12 5 12 12s-5 13-13 13H16v-9h19c3 0 5-1 5-4 0-2-2-3-5-3h-8c-6 0-10-4-10-10z" fill="url(%23a)"/>
-  </svg>'>
+  <title>SEONest | Premium Link Building & Guest Posting Agency</title>
+  <meta name="description" content="SEONest delivers premium guest posting, authority link building, niche edits, SEO content and off-page SEO campaigns for agencies and brands worldwide.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ["Manrope", "sans-serif"],
-            display: ["Sora", "sans-serif"]
-          }
-        }
-      }
-    }
-  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <style>
-    :root{
-      --navy:#071B33;
-      --navy2:#0A2747;
-      --blue:#0D4A66;
-      --teal:#00CDBD;
-      --aqua:#5CE1E6;
-      --gold:#F6C453;
-      --paper:#F7FBFC;
-      --cream:#FFF8EA;
-      --ink:#10243A;
-      --muted:#60758A;
-      --white:#FFFFFF;
-    }
+    html { scroll-behavior: smooth; }
+    body { background:#F7F5F2; color:#160B2E; font-family:'Inter',sans-serif; overflow-x:hidden; }
+    h1,h2,h3,.display{ font-family:'Fraunces',serif; }
 
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{
-      margin:0;
-      overflow-x:hidden;
-      color:var(--ink);
-      font-family:"Manrope",sans-serif;
+    .hero-bg{
       background:
-        radial-gradient(circle at 8% 5%,rgba(92,225,230,.16),transparent 25%),
-        radial-gradient(circle at 92% 4%,rgba(246,196,83,.13),transparent 23%),
-        var(--paper);
+      radial-gradient(circle at top left, rgba(124,58,237,.16), transparent 32%),
+      radial-gradient(circle at bottom right, rgba(184,184,200,.30), transparent 38%),
+      linear-gradient(135deg,#F7F5F2 0%,#FBFAF8 45%,#EFECF7 100%);
     }
 
-    h1,h2,h3,h4,.font-display{font-family:"Sora",sans-serif}
-    ::selection{background:var(--gold);color:var(--navy)}
-    .container-custom{width:min(1180px,calc(100% - 36px));margin-inline:auto}
+    .dark-bg{ background:linear-gradient(150deg,#12112B 0%,#241B4D 55%,#3B2470 100%); }
 
-    .site-nav{
-      background:rgba(247,251,252,.90);
-      border-bottom:1px solid rgba(13,58,99,.10);
-      box-shadow:0 8px 28px rgba(7,27,51,.05);
-      backdrop-filter:blur(18px);
-    }
+    .violet-text{color:#6D28D9;}
+    .platinum-text{color:#8A8A9E;}
+    .deep-text{color:#160B2E;}
+    .ivory-text{color:#F7F5F2;}
 
-    .brand-symbol{
-      width:50px;height:50px;border-radius:17px;display:grid;place-items:center;
-      position:relative;overflow:hidden;
-      background:linear-gradient(145deg,var(--navy),var(--blue));
-      box-shadow:0 14px 36px rgba(7,27,51,.20);
-    }
-    .brand-symbol::before{
-      content:"";width:26px;height:26px;border-radius:50%;
-      border:5px solid var(--teal);border-right-color:var(--gold);
-      transform:rotate(-35deg);
-    }
-    .brand-symbol::after{
-      content:"";position:absolute;width:15px;height:5px;border-radius:999px;
-      background:var(--cream);transform:translate(6px,-7px) rotate(-35deg);
+    .glass-card{
+      background:rgba(255,255,255,.82);
+      border:1px solid rgba(109,40,217,.16);
+      backdrop-filter:blur(14px);
+      box-shadow:0 24px 70px rgba(22,11,46,.10);
     }
 
-    .nav-link{color:#29465F;font-size:13px;font-weight:800;letter-spacing:.04em;transition:.25s}
-    .nav-link:hover,.nav-link.active{color:#008F87}
-
-    .btn-primary,.btn-secondary{
-      display:inline-flex;align-items:center;justify-content:center;gap:10px;
-      min-height:52px;padding:0 25px;border-radius:15px;font-weight:800;transition:.3s
-    }
-    .btn-primary{
-      color:var(--navy);
-      background:linear-gradient(120deg,var(--aqua),var(--teal) 52%,var(--gold));
-      box-shadow:0 16px 38px rgba(0,205,189,.20);
-    }
-    .btn-primary:hover{transform:translateY(-3px);box-shadow:0 22px 48px rgba(0,205,189,.28)}
-    .btn-secondary{
-      color:var(--navy);background:rgba(255,255,255,.78);
-      border:1px solid rgba(13,58,99,.18)
-    }
-    .btn-secondary:hover{transform:translateY(-3px);border-color:var(--teal);color:#008F87}
-
-    .hero{
-      position:relative;overflow:hidden;padding:150px 0 92px;
-      background:linear-gradient(135deg,rgba(255,255,255,.96),rgba(247,251,252,.88));
-    }
-    .hero::before{
-      content:"";position:absolute;inset:0;opacity:.42;
-      background-image:
-        linear-gradient(rgba(13,58,99,.06) 1px,transparent 1px),
-        linear-gradient(90deg,rgba(13,58,99,.06) 1px,transparent 1px);
-      background-size:58px 58px;
-      mask-image:linear-gradient(to bottom,black,transparent 85%);
-    }
-    .orb1,.orb2{position:absolute;border-radius:50%;filter:blur(12px);pointer-events:none}
-    .orb1{width:420px;height:420px;background:rgba(92,225,230,.20);right:-90px;top:80px}
-    .orb2{width:260px;height:260px;background:rgba(246,196,83,.16);left:-80px;bottom:30px}
-
-    .eyebrow{
-      display:inline-flex;align-items:center;gap:10px;padding:10px 15px;border-radius:999px;
-      background:#E9FBFA;border:1px solid rgba(0,205,189,.18);
-      color:#087E77;font-size:11px;font-weight:900;letter-spacing:.16em;text-transform:uppercase
-    }
-    .eyebrow-dot{width:8px;height:8px;border-radius:50%;background:var(--teal);box-shadow:0 0 18px var(--teal)}
-    .hero-title{font-size:clamp(44px,6vw,76px);line-height:1.03;letter-spacing:-.055em;font-weight:800;color:var(--navy)}
-    .gradient-text{
-      background:linear-gradient(100deg,#008F87 0%,var(--teal) 38%,#2DB7C2 64%,#D5A839 100%);
-      -webkit-background-clip:text;background-clip:text;color:transparent
+    .glass-dark{
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(184,184,200,.22);
+      backdrop-filter:blur(14px);
+      box-shadow:0 24px 70px rgba(0,0,0,.32);
     }
 
-    .hero-panel{
-      position:relative;padding:18px;border-radius:34px;
-      background:linear-gradient(145deg,rgba(255,255,255,.93),rgba(230,249,249,.76));
-      border:1px solid rgba(13,58,99,.11);
-      box-shadow:0 36px 95px rgba(7,27,51,.16)
+    .main-btn{
+      background:linear-gradient(135deg,#6D28D9,#B8B8C8);
+      color:#12112B;
+      font-weight:800;
+      border-radius:999px;
+      padding:14px 30px;
+      display:inline-block;
+      transition:.3s;
+      box-shadow:0 16px 35px rgba(109,40,217,.30);
     }
-    .dashboard{
-      overflow:hidden;border-radius:25px;color:white;
-      background:linear-gradient(145deg,var(--navy),var(--navy2));
-      border:1px solid rgba(255,255,255,.08)
-    }
-    .dashboard-header{
-      padding:18px 20px;display:flex;justify-content:space-between;align-items:center;
-      border-bottom:1px solid rgba(255,255,255,.08)
-    }
-    .dash-dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px}
-    .metric{padding:18px;border-radius:18px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08)}
-    .floating-audit{
-      position:absolute;right:-28px;bottom:42px;width:180px;padding:18px;border-radius:20px;
-      background:rgba(255,255,255,.98);border:1px solid rgba(13,58,99,.12);
-      box-shadow:0 22px 55px rgba(7,27,51,.17);animation:float 4s ease-in-out infinite
-    }
-    @keyframes float{50%{transform:translateY(-10px)}}
+    .main-btn:hover{transform:scale(1.05);}
 
-    .trust-strip{background:var(--navy);color:white}
-    .section-tag{color:#008F87;font-size:11px;font-weight:900;letter-spacing:.20em;text-transform:uppercase}
-    .section-title{font-size:clamp(36px,5vw,60px);line-height:1.08;letter-spacing:-.045em;color:var(--navy);font-weight:800}
+    .outline-btn{
+      border:2px solid #6D28D9;
+      color:#6D28D9;
+      font-weight:800;
+      border-radius:999px;
+      padding:14px 30px;
+      display:inline-block;
+      transition:.3s;
+      background:#fff;
+    }
+    .outline-btn:hover{background:#6D28D9;color:white;}
 
-    .card{
-      height:100%;padding:30px;border-radius:25px;background:rgba(255,255,255,.88);
-      border:1px solid rgba(13,58,99,.10);box-shadow:0 18px 46px rgba(7,27,51,.07);
-      transition:.35s;position:relative;overflow:hidden
+    .logo-mark{
+      width:44px;height:44px;border-radius:14px;
+      background:linear-gradient(135deg,#6D28D9,#B8B8C8);
+      color:#12112B;
+      display:inline-flex;align-items:center;justify-content:center;
+      font-weight:900;margin-right:10px;font-family:'Fraunces',serif;
     }
-    .card::after{
-      content:"";position:absolute;width:140px;height:140px;border-radius:50%;
-      right:-70px;bottom:-70px;background:rgba(92,225,230,.12);transition:.35s
+
+    .service-card{
+      background:#fff;
+      border:1px solid rgba(109,40,217,.14);
+      border-radius:26px;
+      padding:32px;
+      transition:.35s;
+      box-shadow:0 18px 45px rgba(22,11,46,.08);
     }
-    .card:hover{transform:translateY(-9px);border-color:rgba(0,205,189,.38);box-shadow:0 28px 65px rgba(7,27,51,.12)}
-    .card:hover::after{background:rgba(246,196,83,.15)}
+    .service-card:hover{
+      transform:translateY(-10px);
+      border-color:#B8B8C8;
+      box-shadow:0 28px 70px rgba(109,40,217,.20);
+    }
+
     .icon-box{
-      width:60px;height:60px;border-radius:18px;display:grid;place-items:center;
-      color:var(--navy);font-size:23px;margin-bottom:24px;
-      background:linear-gradient(145deg,var(--aqua),var(--teal) 60%,var(--gold));
-      box-shadow:0 14px 30px rgba(0,205,189,.18)
+      width:66px;height:66px;border-radius:20px;
+      display:flex;align-items:center;justify-content:center;
+      background:linear-gradient(135deg,#6D28D9,#B8B8C8);
+      color:#12112B;
+      font-size:27px;
+      margin-bottom:20px;
     }
 
-    .founder-section{
-      position:relative;overflow:hidden;color:white;
-      background:
-        radial-gradient(circle at 85% 15%,rgba(92,225,230,.16),transparent 25%),
-        linear-gradient(135deg,var(--navy),var(--navy2))
-    }
-    .founder-card{
-      padding:34px;border-radius:34px;background:rgba(255,255,255,.07);
-      border:1px solid rgba(255,255,255,.11);backdrop-filter:blur(16px)
-    }
-    .founder-photo{
-      width:290px;height:290px;margin:auto;padding:6px;border-radius:32px;
-      background:linear-gradient(145deg,var(--aqua),var(--teal),var(--gold));
-      box-shadow:0 30px 70px rgba(0,0,0,.24)
-    }
-    .founder-photo img{
-      width:100%;height:100%;object-fit:cover;object-position:top;border-radius:27px;
-      border:5px solid var(--navy)
-    }
+    .floating-contact{position:fixed;bottom:22px;right:22px;z-index:9999;}
+    .contact-options{display:none;flex-direction:column;gap:10px;margin-bottom:12px;}
+    .floating-contact:hover .contact-options{display:flex;}
+    .float-btn{width:54px;height:54px;border-radius:999px;display:flex;align-items:center;justify-content:center;color:white;box-shadow:0 12px 28px rgba(0,0,0,.30);transition:.3s;}
+    .float-btn:hover{transform:scale(1.12);}
 
-    .feature-panel{
-      border-radius:30px;padding:42px;
-      background:linear-gradient(145deg,#ECFAFA,#FFF8EA);
-      border:1px solid rgba(13,58,99,.10);box-shadow:0 26px 70px rgba(7,27,51,.08)
-    }
-    .feature-row{display:flex;gap:15px;padding:17px 0;border-bottom:1px solid rgba(13,58,99,.10)}
-    .feature-row:last-child{border-bottom:none}
-    .check{
-      flex:0 0 28px;height:28px;border-radius:9px;display:grid;place-items:center;
-      background:linear-gradient(135deg,var(--teal),var(--gold));color:var(--navy);font-size:12px
-    }
+    .mobile-menu{display:none;}
+    .mobile-menu.active{display:block;}
 
-    .process-card{
-      padding:28px;border-radius:24px;background:white;
-      border:1px solid rgba(13,58,99,.10);box-shadow:0 16px 40px rgba(7,27,51,.06)
-    }
-    .process-number{font-size:44px;line-height:1;font-weight:800;color:rgba(0,143,135,.17);margin-bottom:20px}
-
-    .result-band{
-      position:relative;overflow:hidden;color:white;
-      background:linear-gradient(120deg,#0A2747,#0D4A66 60%,#087E77)
-    }
-    .result-band::after{
-      content:"";position:absolute;width:350px;height:350px;border-radius:50%;
-      background:rgba(246,196,83,.15);right:-140px;top:-170px
-    }
-    .stat-box{
-      padding:25px;border-radius:20px;background:rgba(255,255,255,.09);
-      border:1px solid rgba(255,255,255,.14);backdrop-filter:blur(10px)
-    }
-
-    .price-card{
-      height:100%;padding:32px;border-radius:27px;background:white;
-      border:1px solid rgba(13,58,99,.10);box-shadow:0 20px 55px rgba(7,27,51,.07);
-      position:relative;transition:.35s
-    }
-    .price-card:hover{transform:translateY(-8px)}
-    .price-card.featured{
-      color:white;background:linear-gradient(145deg,var(--navy),#0D4563);
-      border-color:rgba(92,225,230,.45);box-shadow:0 28px 75px rgba(7,27,51,.18)
-    }
-    .popular{
-      position:absolute;top:18px;right:18px;padding:7px 12px;border-radius:999px;
-      color:var(--navy);background:linear-gradient(120deg,var(--aqua),var(--gold));
-      font-size:10px;font-weight:900;letter-spacing:.1em;text-transform:uppercase
-    }
-
-    .testimonial{
-      height:100%;padding:28px;border-radius:24px;background:#F0FBFA;
-      border:1px solid rgba(0,205,189,.14)
-    }
-
-    .faq-item{border-bottom:1px solid rgba(13,58,99,.12)}
-    .faq-button{
-      width:100%;padding:23px 0;display:flex;justify-content:space-between;
-      align-items:center;gap:20px;text-align:left;font-weight:800;color:var(--navy)
-    }
-    .faq-answer{max-height:0;overflow:hidden;color:var(--muted);transition:max-height .35s}
-    .faq-answer p{padding:0 40px 23px 0;line-height:1.8}
-    .faq-item.active .faq-answer{max-height:240px}
-    .faq-icon{transition:.3s}
-    .faq-item.active .faq-icon{transform:rotate(45deg);color:#008F87}
-
-    .cta{
-      overflow:hidden;border-radius:34px;color:white;
-      background:
-        radial-gradient(circle at top right,rgba(255,255,255,.22),transparent 25%),
-        linear-gradient(115deg,#0D4A66,#008F87 52%,#00CDBD 76%,#F6C453 130%);
-      box-shadow:0 34px 90px rgba(7,27,51,.20)
-    }
-
-    .floating-contact{position:fixed;right:20px;bottom:20px;z-index:90}
-    .contact-list{
-      display:flex;flex-direction:column;gap:10px;align-items:center;margin-bottom:10px;
-      opacity:0;visibility:hidden;transform:translateY(14px);transition:.25s
-    }
-    .floating-contact.active .contact-list{opacity:1;visibility:visible;transform:none}
-    .contact-circle,.contact-trigger{
-      width:52px;height:52px;border-radius:17px;display:grid;place-items:center;color:white;
-      box-shadow:0 14px 34px rgba(7,27,51,.25);transition:.25s
-    }
-    .contact-circle:hover,.contact-trigger:hover{transform:translateY(-4px)}
-    .contact-trigger{
-      width:60px;height:60px;color:var(--navy);font-size:22px;
-      background:linear-gradient(135deg,var(--aqua),var(--teal),var(--gold))
-    }
-
-    .mobile-menu{
-      max-height:0;overflow:hidden;background:#F7FBFC;
-      border-top:1px solid rgba(13,58,99,.08);transition:max-height .35s
-    }
-    .mobile-menu.active{max-height:600px}
-    .mobile-menu a{
-      display:block;padding:14px 0;color:#29465F;font-size:14px;font-weight:800;
-      border-bottom:1px solid rgba(13,58,99,.07)
-    }
-
-    footer{background:var(--navy);color:white}
-    .footer-link{color:#BBD0DF;transition:.25s}
-    .footer-link:hover{color:var(--aqua)}
-    .payment-badge{
-      display:flex;align-items:center;justify-content:center;padding:9px 11px;border-radius:12px;
-      background:white;border:1px solid rgba(255,255,255,.14);min-width:62px;height:42px
-    }
-
-    .reveal{opacity:0;transform:translateY(28px);transition:.7s}
-    .reveal.visible{opacity:1;transform:none}
-
-    @media(max-width:1024px){.floating-audit{right:14px}}
     @media(max-width:768px){
-      .hero{padding-top:130px}
-      .floating-audit{position:static;width:100%;margin-top:14px}
-      .feature-panel{padding:28px}
-      .founder-photo{width:245px;height:245px}
-    }
-    @media(max-width:480px){
-      .container-custom{width:min(100% - 28px,1180px)}
-      .btn-primary,.btn-secondary{width:100%}
-      .eyebrow{font-size:9px}
+      .desktop-menu{display:none!important;}
+      .mobile-menu{
+        background:#F7F5F2;
+        padding:18px 24px;
+        border-top:1px solid rgba(109,40,217,.15);
+      }
+      .mobile-menu a{
+        display:block;
+        padding:12px 0;
+        color:#160B2E;
+        font-weight:bold;
+        text-transform:uppercase;
+        font-size:13px;
+        border-bottom:1px solid rgba(109,40,217,.08);
+      }
     }
   </style>
-
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"ProfessionalService",
-    "name":"SEOnest",
-    "url":"https://seonest.online/",
-    "description":"Premium SEO strategy, technical SEO, content optimization, authority development and local search services.",
-    "email":"hello@seonest.online",
-    "telephone":"+92 307 4646927",
-    "areaServed":"Worldwide",
-    "founder":{"@type":"Person","name":"Nadeem Mayo"},
-    "serviceType":["SEO Strategy","Technical SEO","Content Strategy","Authority Development","E-commerce SEO","Local SEO"]
-  }
-  </script>
 </head>
 
 <body>
 
-<nav class="site-nav fixed top-0 left-0 w-full z-50">
-  <div class="container-custom">
-    <div class="h-[82px] flex items-center justify-between">
-      <a href="index.html" class="flex items-center gap-3" aria-label="SEOnest home">
-        <span class="brand-symbol"></span>
-        <span class="leading-none">
-          <span class="block text-[25px] font-display font-extrabold tracking-[-.05em] text-[#071B33]">
-            SEO<span class="text-[#008F87]">nest</span>
-          </span>
-          <span class="block text-[8px] uppercase tracking-[.30em] text-[#60758A] mt-1">Search Growth Studio</span>
-        </span>
-      </a>
+<nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-violet-100">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+    <a href="index.html" class="text-2xl font-black deep-text flex items-center display">
+      <span class="logo-mark">SN</span>
+      SEO<span class="violet-text">NEST</span>
+    </a>
 
-      <div class="hidden lg:flex items-center gap-6">
-        <a href="index.html" class="nav-link active">Home</a>
-        <a href="about.html" class="nav-link">About</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="portfolio.html" class="nav-link">Portfolio</a>
-        <a href="all-niches-sites.html" class="nav-link">All Niches</a>
-        <a href="blog.html" class="nav-link">Blog</a>
-        <a href="#faq" class="nav-link">FAQ</a>
-        <a href="contact.html" class="btn-primary !min-h-[46px] !px-5">Start a Project <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i></a>
-      </div>
-
-      <button id="mobileMenuButton" class="lg:hidden w-11 h-11 rounded-xl border border-[#0D3A63]/10 bg-white text-[#071B33]" aria-label="Open menu" aria-expanded="false">
-        <i class="fa-solid fa-bars"></i>
-      </button>
+    <div class="desktop-menu hidden md:flex gap-5 font-bold text-xs uppercase items-center">
+      <a href="index.html" class="violet-text">Home</a>
+      <a href="about.html" class="hover:text-violet-700">About</a>
+      <a href="services.html" class="hover:text-violet-700">Services</a>
+      <a href="portfolio.html" class="hover:text-violet-700">Portfolio</a>
+      <a href="all-niches-sites.html" class="hover:text-violet-700">All Niches</a>
+      <a href="blog.html" class="hover:text-violet-700">Blog</a>
+      <a href="FAQs.html" class="hover:text-violet-700">FAQ</a>
+      <a href="contact.html" class="main-btn text-sm px-5 py-2">Contact</a>
     </div>
+
+    <button class="mobile-menu-btn deep-text text-3xl font-bold md:hidden" type="button">☰</button>
   </div>
 
-  <div id="mobileMenu" class="mobile-menu lg:hidden">
-    <div class="container-custom py-3">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="portfolio.html">Portfolio</a>
-      <a href="all-niches-sites.html">All Niches</a>
-      <a href="blog.html">Blog</a>
-      <a href="#faq">FAQ</a>
-      <a href="contact.html" class="!text-[#008F87]">Start a Project</a>
-    </div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="all-niches-sites.html">All Niches</a>
+    <a href="blog.html">Blog</a>
+    <a href="FAQs.html">FAQ</a>
+    <a href="contact.html">Contact</a>
   </div>
 </nav>
 
-<main>
+<header class="hero-bg py-28 px-6">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+    <div>
+      <span class="inline-block border border-violet-400/30 text-violet-800 bg-white/70 text-xs font-bold uppercase tracking-[4px] px-5 py-2 rounded-full mb-6">
+        Premium Link Building & Guest Posting
+      </span>
 
-<header class="hero">
-  <div class="orb1"></div>
-  <div class="orb2"></div>
+      <h1 class="text-4xl md:text-6xl font-black leading-tight mb-6 deep-text display">
+        Build An Authority That <span class="violet-text">Ranks &amp; Lasts</span>
+      </h1>
 
-  <div class="container-custom relative z-10">
-    <div class="grid lg:grid-cols-[1.04fr_.96fr] gap-14 items-center">
-      <div class="reveal">
-        <div class="eyebrow mb-7"><span class="eyebrow-dot"></span> Premium SEO Strategy for Sustainable Growth</div>
-        <h1 class="hero-title mb-7">
-          Build an organic presence that becomes a
-          <span class="gradient-text">lasting business advantage.</span>
-        </h1>
-        <p class="text-[18px] md:text-[20px] leading-[1.75] text-[#60758A] max-w-[710px] mb-9">
-          SEOnest brings technical SEO, search intelligence, content architecture and authority development together in one focused growth system for ambitious brands.
-        </p>
+      <p class="text-[#3E3352] text-lg md:text-xl max-w-3xl mb-10 leading-8">
+        SEONest helps agencies and brands grow organic visibility through premium guest posting, niche edits, authority backlinks and white-hat off-page SEO — every placement built to last, not just to rank once.
+      </p>
 
-        <div class="flex flex-wrap gap-4 mb-9">
-          <a href="contact.html" class="btn-primary">Request Your SEO Growth Plan <i class="fa-solid fa-arrow-right"></i></a>
-          <a href="services.html" class="btn-secondary">Explore Our Services <i class="fa-solid fa-layer-group"></i></a>
-        </div>
-
-        <div class="grid sm:grid-cols-3 gap-4 text-sm font-semibold text-[#29465F]">
-          <span><i class="fa-solid fa-circle-check text-[#00A89C] mr-2"></i>Custom strategy</span>
-          <span><i class="fa-solid fa-circle-check text-[#00A89C] mr-2"></i>Clear reporting</span>
-          <span><i class="fa-solid fa-circle-check text-[#00A89C] mr-2"></i>Scalable execution</span>
-        </div>
+      <div class="flex gap-4 flex-wrap mb-10">
+        <a href="services.html" class="main-btn">Explore Services</a>
+        <a href="contact.html" class="outline-btn">Get Free Consultation</a>
       </div>
 
-      <div class="hero-panel reveal">
-        <div class="dashboard">
-          <div class="dashboard-header">
-            <div>
-              <span class="dash-dot bg-red-400"></span>
-              <span class="dash-dot bg-yellow-300"></span>
-              <span class="dash-dot bg-green-400"></span>
-            </div>
-            <span class="text-xs uppercase tracking-[.16em] text-[#BBD0DF] font-bold">Organic Performance</span>
-          </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl">
+        <a href="portfolio.html" class="glass-card rounded-2xl p-5 font-black hover:scale-105 transition">🏆 View Portfolio</a>
+        <a href="all-niches-sites.html" class="glass-card rounded-2xl p-5 font-black hover:scale-105 transition">🚀 Browse All Niches</a>
+      </div>
+    </div>
 
-          <div class="p-6 md:p-8">
-            <div class="flex justify-between items-start gap-5">
-              <div>
-                <p class="text-sm text-[#A7C0D0] mb-2">Search visibility</p>
-                <div class="flex items-end gap-3">
-                  <strong class="text-4xl font-display">84.7%</strong>
-                  <span class="text-[#5CE1E6] text-xs font-bold mb-1"><i class="fa-solid fa-arrow-trend-up mr-1"></i>31.8%</span>
-                </div>
-              </div>
-              <div class="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 grid place-items-center text-[#5CE1E6]">
-                <i class="fa-solid fa-chart-column"></i>
-              </div>
-            </div>
+    <div class="glass-card rounded-[40px] p-8">
+      <p class="uppercase tracking-[4px] text-violet-700 font-black text-sm mb-4">The Nest Standard</p>
+      <h2 class="text-4xl font-black deep-text mb-6 display">SEO Growth System</h2>
 
-            <div class="h-[225px] mt-6 relative overflow-hidden">
-              <div class="absolute inset-0 grid grid-rows-4">
-                <span class="border-b border-white/[.07]"></span>
-                <span class="border-b border-white/[.07]"></span>
-                <span class="border-b border-white/[.07]"></span>
-                <span class="border-b border-white/[.07]"></span>
-              </div>
-              <svg viewBox="0 0 500 180" preserveAspectRatio="none" class="absolute inset-0 w-full h-full" aria-hidden="true">
-                <defs>
-                  <linearGradient id="lineG" x1="0" x2="1">
-                    <stop offset="0%" stop-color="#5CE1E6"/>
-                    <stop offset="55%" stop-color="#00CDBD"/>
-                    <stop offset="100%" stop-color="#F6C453"/>
-                  </linearGradient>
-                  <linearGradient id="areaG" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stop-color="#5CE1E6" stop-opacity=".34"/>
-                    <stop offset="100%" stop-color="#5CE1E6" stop-opacity="0"/>
-                  </linearGradient>
-                </defs>
-                <path d="M0,154 C58,149 75,132 114,135 C160,139 174,108 218,112 C266,116 285,82 335,86 C382,89 410,50 500,29 L500,180 L0,180 Z" fill="url(#areaG)"/>
-                <path d="M0,154 C58,149 75,132 114,135 C160,139 174,108 218,112 C266,116 285,82 335,86 C382,89 410,50 500,29" fill="none" stroke="url(#lineG)" stroke-width="6" stroke-linecap="round"/>
-              </svg>
-            </div>
+      <div class="grid grid-cols-2 gap-4 mb-6">
+        <div class="rounded-2xl p-5 bg-white border border-violet-100"><h3 class="text-3xl font-black violet-text">50K+</h3><p class="text-gray-600 text-sm">Websites Access</p></div>
+        <div class="rounded-2xl p-5 bg-white border border-violet-100"><h3 class="text-3xl font-black violet-text">200+</h3><p class="text-gray-600 text-sm">Campaigns</p></div>
+        <div class="rounded-2xl p-5 bg-white border border-violet-100"><h3 class="text-3xl font-black violet-text">20+</h3><p class="text-gray-600 text-sm">Niches</p></div>
+        <div class="rounded-2xl p-5 bg-white border border-violet-100"><h3 class="text-3xl font-black violet-text">Global</h3><p class="text-gray-600 text-sm">Outreach</p></div>
+      </div>
 
-            <div class="grid grid-cols-3 gap-3">
-              <div class="metric"><p class="text-[11px] text-[#9BB3C3] mb-2">Keywords</p><p class="font-bold text-lg">2,480</p></div>
-              <div class="metric"><p class="text-[11px] text-[#9BB3C3] mb-2">Organic users</p><p class="font-bold text-lg">46.2K</p></div>
-              <div class="metric"><p class="text-[11px] text-[#9BB3C3] mb-2">Qualified leads</p><p class="font-bold text-lg">1,164</p></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="floating-audit">
-          <div class="flex justify-between items-center mb-3">
-            <span class="text-[11px] uppercase tracking-[.15em] text-[#60758A] font-extrabold">SEO Health</span>
-            <i class="fa-solid fa-shield-check text-[#008F87]"></i>
-          </div>
-          <div class="flex items-end gap-2">
-            <strong class="text-3xl font-display text-[#071B33]">94</strong>
-            <span class="text-sm text-[#60758A] mb-1">/100</span>
-          </div>
-          <div class="h-2 rounded-full bg-[#E5EEF3] mt-4 overflow-hidden">
-            <div class="h-full w-[94%] rounded-full bg-gradient-to-r from-[#00CDBD] to-[#F6C453]"></div>
-          </div>
-        </div>
+      <div class="rounded-3xl p-6 text-white" style="background:linear-gradient(135deg,#6D28D9,#12112B);">
+        <p class="font-bold leading-7">Relevant websites, safe anchors, clean reporting and real ranking-focused execution.</p>
       </div>
     </div>
   </div>
 </header>
 
-<section class="trust-strip py-8">
-  <div class="container-custom">
-    <div class="grid md:grid-cols-[240px_1fr] gap-7 items-center">
-      <p class="text-xs uppercase tracking-[.18em] text-[#9EB8C9] font-bold">Built for competitive digital markets</p>
-      <div class="grid grid-cols-2 md:grid-cols-5 gap-5 text-center font-display font-bold">
-        <span>SaaS</span><span>E-commerce</span><span>B2B</span><span>Local Brands</span><span>Agencies</span>
+<section class="dark-bg py-24 px-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="glass-dark rounded-[38px] p-8 md:p-12">
+      <div class="grid lg:grid-cols-[320px_1fr] gap-10 items-center">
+        <div class="text-center">
+          <div class="relative inline-block">
+            <div class="absolute inset-0 rounded-full bg-violet-400 blur-3xl opacity-20"></div>
+            <div class="relative w-72 h-72 mx-auto rounded-full p-[5px]" style="background:linear-gradient(135deg,#6D28D9,#B8B8C8);">
+              <img src="https://raw.githubusercontent.com/Nadeemmayo/offpageseoexpert.com/main/WhatsApp%20Image%202026-04-07%20at%205.28.39%20AM.jpeg"
+                   alt="Nadeem Mayo"
+                   class="w-full h-full rounded-full object-cover object-top"
+                   style="border:5px solid #12112B;">
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="uppercase tracking-[5px] platinum-text font-bold text-sm mb-3">Meet The Founder</p>
+          <h2 class="text-5xl lg:text-6xl font-black ivory-text mb-4 display">Nadeem Mayo</h2>
+
+          <span class="inline-block px-7 py-3 rounded-full font-bold text-sm mb-6" style="background:#B8B8C8;color:#12112B;">
+            Founder • SEONest SEO Agency
+          </span>
+
+          <p class="text-violet-50 text-lg leading-8 max-w-3xl mb-8">
+            Helping agencies, brands and businesses scale through premium guest posting, authority backlinks, niche edits and strategic off-page SEO campaigns designed for long-term organic growth.
+          </p>
+
+          <div class="flex flex-wrap gap-4">
+            <a href="https://www.linkedin.com/in/menadeemmayo" target="_blank" class="w-14 h-14 rounded-full bg-[#0077B5] flex items-center justify-center text-white text-xl hover:scale-110 transition"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/share/19aDt6pcgh/" target="_blank" class="w-14 h-14 rounded-full bg-blue-600 flex items-center justify-center text-white text-xl hover:scale-110 transition"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/923074646927" target="_blank" class="w-14 h-14 rounded-full bg-green-500 flex items-center justify-center text-white text-xl hover:scale-110 transition"><i class="fab fa-whatsapp"></i></a>
+            <a href="mailto:ceo@seonest.online" class="w-14 h-14 rounded-full flex items-center justify-center text-white text-xl hover:scale-110 transition" style="background:#6D28D9;"><i class="fas fa-envelope"></i></a>
+            <a href="contact.html" class="main-btn ml-2">Work With Me</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="py-24 md:py-32">
-  <div class="container-custom">
-    <div class="grid lg:grid-cols-[.86fr_1.14fr] gap-10 items-end mb-14 reveal">
-      <div>
-        <p class="section-tag mb-4">Strategic SEO Capabilities</p>
-        <h2 class="section-title">One connected growth system, built around your market.</h2>
-      </div>
-      <p class="text-[#60758A] text-lg leading-8 max-w-2xl lg:ml-auto">
-        We connect research, technical performance, content quality and authority signals so every SEO activity supports the same commercial objective.
+<section class="py-20 px-6 bg-white text-gray-900">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-14">
+      <p class="uppercase tracking-[3px] text-sm font-black violet-text mb-3">Our Premium Services</p>
+      <h2 class="text-4xl md:text-5xl font-black mb-4 deep-text display">
+        SEO Services Built For <span class="violet-text">Authority Growth</span>
+      </h2>
+      <p class="text-gray-600 max-w-3xl mx-auto">
+        Complete off-page SEO, guest posting, content and backlink solutions to grow trust, rankings and organic traffic.
       </p>
     </div>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <article class="card reveal">
-        <div class="icon-box"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
-        <h3 class="text-2xl font-bold text-[#071B33] mb-3">SEO Intelligence</h3>
-        <p class="text-[#60758A] leading-7 mb-6">Keyword, competitor, audience and search-intent research that reveals where your strongest growth opportunities exist.</p>
-        <a href="services.html" class="font-bold text-[#008F87] text-sm">Explore strategy <i class="fa-solid fa-arrow-right ml-2"></i></a>
-      </article>
-
-      <article class="card reveal">
-        <div class="icon-box"><i class="fa-solid fa-code"></i></div>
-        <h3 class="text-2xl font-bold text-[#071B33] mb-3">Technical SEO</h3>
-        <p class="text-[#60758A] leading-7 mb-6">Crawling, indexing, site architecture, performance and structured data improvements for a stronger search foundation.</p>
-        <a href="services.html" class="font-bold text-[#008F87] text-sm">Improve site health <i class="fa-solid fa-arrow-right ml-2"></i></a>
-      </article>
-
-      <article class="card reveal">
-        <div class="icon-box"><i class="fa-solid fa-pen-ruler"></i></div>
-        <h3 class="text-2xl font-bold text-[#071B33] mb-3">Content Architecture</h3>
-        <p class="text-[#60758A] leading-7 mb-6">Search-led content systems that build topical depth, improve relevance and guide prospects toward action.</p>
-        <a href="services.html" class="font-bold text-[#008F87] text-sm">Build topical authority <i class="fa-solid fa-arrow-right ml-2"></i></a>
-      </article>
-
-      <article class="card reveal">
-        <div class="icon-box"><i class="fa-solid fa-link"></i></div>
-        <h3 class="text-2xl font-bold text-[#071B33] mb-3">Authority Development</h3>
-        <p class="text-[#60758A] leading-7 mb-6">Relevance-first outreach, guest publishing and contextual placements designed to strengthen competitive authority.</p>
-        <a href="services.html" class="font-bold text-[#008F87] text-sm">Strengthen authority <i class="fa-solid fa-arrow-right ml-2"></i></a>
-      </article>
-
-      <article class="card reveal">
-        <div class="icon-box"><i class="fa-solid fa-cart-shopping"></i></div>
-        <h3 class="text-2xl font-bold text-[#071B33] mb-3">E-commerce SEO</h3>
-        <p class="text-[#60758A] leading-7 mb-6">Category, product and technical optimization that improves product discovery and supports organic revenue growth.</p>
-        <a href="services.html" class="font-bold text-[#008F87] text-sm">Scale online revenue <i class="fa-solid fa-arrow-right ml-2"></i></a>
-      </article>
-
-      <article class="card reveal">
-        <div class="icon-box"><i class="fa-solid fa-location-dot"></i></div>
-        <h3 class="text-2xl font-bold text-[#071B33] mb-3">Local Search Growth</h3>
-        <p class="text-[#60758A] leading-7 mb-6">Local SEO, map visibility, citations and location-page optimization for businesses serving defined markets.</p>
-        <a href="services.html" class="font-bold text-[#008F87] text-sm">Win local searches <i class="fa-solid fa-arrow-right ml-2"></i></a>
-      </article>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="service-card"><div class="icon-box"><i class="fas fa-newspaper"></i></div><h3 class="text-2xl font-black mb-3 display">Guest Posting</h3><p class="text-gray-600 mb-5">Publish SEO-friendly articles on relevant websites with quality backlinks and live URL reporting.</p><ul class="text-sm text-gray-700 space-y-2"><li>✔ Real websites</li><li>✔ Niche relevant blogs</li><li>✔ Traffic-based placements</li></ul></div>
+      <div class="service-card"><div class="icon-box"><i class="fas fa-link"></i></div><h3 class="text-2xl font-black mb-3 display">Link Building</h3><p class="text-gray-600 mb-5">High-quality backlinks from trusted websites to improve authority, rankings and visibility.</p><ul class="text-sm text-gray-700 space-y-2"><li>✔ Authority backlinks</li><li>✔ Contextual links</li><li>✔ Manual outreach</li></ul></div>
+      <div class="service-card"><div class="icon-box"><i class="fas fa-chart-line"></i></div><h3 class="text-2xl font-black mb-3 display">Niche Edits</h3><p class="text-gray-600 mb-5">Contextual backlinks placed inside existing indexed articles for faster authority building.</p><ul class="text-sm text-gray-700 space-y-2"><li>✔ Indexed pages</li><li>✔ Relevant content</li><li>✔ Natural placement</li></ul></div>
+      <div class="service-card"><div class="icon-box"><i class="fas fa-pen-fancy"></i></div><h3 class="text-2xl font-black mb-3 display">Content Writing</h3><p class="text-gray-600 mb-5">Human-written SEO content for guest posts, blogs, landing pages and ranking campaigns.</p><ul class="text-sm text-gray-700 space-y-2"><li>✔ SEO optimized</li><li>✔ Human readable</li><li>✔ Guest post ready</li></ul></div>
+      <div class="service-card"><div class="icon-box"><i class="fas fa-search"></i></div><h3 class="text-2xl font-black mb-3 display">Complete SEO</h3><p class="text-gray-600 mb-5">On-page, off-page, technical SEO, content and backlink strategy for long-term growth.</p><ul class="text-sm text-gray-700 space-y-2"><li>✔ SEO audit</li><li>✔ Ranking strategy</li><li>✔ Growth plan</li></ul></div>
+      <div class="service-card"><div class="icon-box"><i class="fas fa-map-marker-alt"></i></div><h3 class="text-2xl font-black mb-3 display">Local SEO</h3><p class="text-gray-600 mb-5">Local citations, authority links and business visibility optimization for local ranking growth.</p><ul class="text-sm text-gray-700 space-y-2"><li>✔ Maps ranking</li><li>✔ Local citations</li><li>✔ Local backlinks</li></ul></div>
     </div>
   </div>
 </section>
 
-<section class="founder-section py-24">
-  <div class="container-custom">
-    <div class="founder-card reveal">
-      <div class="grid lg:grid-cols-[330px_1fr] gap-12 items-center">
-        <div>
-          <div class="founder-photo">
-            <img src="https://raw.githubusercontent.com/Nadeemmayo/offpageseoexpert.com/main/WhatsApp%20Image%202026-04-07%20at%205.28.39%20AM.jpeg" alt="Nadeem Mayo, Founder of SEOnest">
-          </div>
-        </div>
+<section class="dark-bg py-20 px-6">
+  <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <div>
+      <p class="uppercase tracking-[3px] text-sm font-bold platinum-text mb-4">Why Choose SEONest</p>
+      <h2 class="text-4xl md:text-5xl font-black mb-6 ivory-text display">
+        We Build Links That Support <span class="platinum-text">Real SEO Growth</span>
+      </h2>
+      <p class="text-violet-50 mb-7 leading-8">
+        We focus on relevant websites, real traffic, clean metrics, natural anchor strategy and transparent link placement reports.
+      </p>
 
-        <div>
-          <p class="text-[#5CE1E6] uppercase tracking-[.20em] text-xs font-extrabold mb-4">Meet the Founder</p>
-          <h2 class="text-4xl md:text-6xl font-extrabold tracking-[-.045em] mb-4">Nadeem Mayo</h2>
-          <span class="inline-flex px-5 py-2 rounded-full bg-[#F6C453] text-[#071B33] font-extrabold text-sm mb-6">Founder • SEOnest Organic Growth Agency</span>
-          <p class="text-[#C8D9E4] text-lg leading-8 max-w-3xl mb-8">
-            Nadeem helps agencies, brands and growing businesses improve search visibility through strategic SEO, technical optimization, content planning and authority development focused on long-term business growth.
-          </p>
-
-          <div class="flex flex-wrap gap-3">
-            <a href="https://www.linkedin.com/in/menadeemmayo" target="_blank" rel="noopener" class="w-12 h-12 rounded-xl bg-[#0077B5] grid place-items-center text-white hover:-translate-y-1 transition" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://www.facebook.com/share/19aDt6pcgh/" target="_blank" rel="noopener" class="w-12 h-12 rounded-xl bg-[#1877F2] grid place-items-center text-white hover:-translate-y-1 transition" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://wa.me/923074646927" target="_blank" rel="noopener" class="w-12 h-12 rounded-xl bg-[#25D366] grid place-items-center text-white hover:-translate-y-1 transition" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://t.me/Nadeemmayos" target="_blank" rel="noopener" class="w-12 h-12 rounded-xl bg-[#229ED9] grid place-items-center text-white hover:-translate-y-1 transition" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
-            <a href="mailto:hello@seonest.online" class="w-12 h-12 rounded-xl bg-[#008F87] grid place-items-center text-white hover:-translate-y-1 transition" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-            <a href="contact.html" class="btn-primary ml-1">Work With Nadeem <i class="fa-solid fa-arrow-right"></i></a>
-          </div>
-        </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="glass-dark rounded-2xl p-5 ivory-text">✔ Manual Outreach</div>
+        <div class="glass-dark rounded-2xl p-5 ivory-text">✔ Real Traffic Sites</div>
+        <div class="glass-dark rounded-2xl p-5 ivory-text">✔ Niche Relevant Links</div>
+        <div class="glass-dark rounded-2xl p-5 ivory-text">✔ White-Hat Strategy</div>
+        <div class="glass-dark rounded-2xl p-5 ivory-text">✔ Transparent Reports</div>
+        <div class="glass-dark rounded-2xl p-5 ivory-text">✔ Fast Communication</div>
       </div>
+    </div>
+
+    <div class="glass-dark rounded-3xl p-8">
+      <h3 class="text-2xl font-black mb-5 platinum-text display">Placement Quality Checklist</h3>
+      <ul class="space-y-4 text-violet-50">
+        <li>✔ Website niche relevance</li>
+        <li>✔ Organic traffic quality</li>
+        <li>✔ DR / DA and authority signals</li>
+        <li>✔ Spam score and backlink profile</li>
+        <li>✔ Indexing and content quality</li>
+        <li>✔ Anchor text and target URL safety</li>
+      </ul>
     </div>
   </div>
 </section>
 
-<section class="py-24 md:py-32">
-  <div class="container-custom">
-    <div class="grid lg:grid-cols-2 gap-14 items-center">
-      <div class="reveal">
-        <p class="section-tag mb-4">Why SEOnest</p>
-        <h2 class="section-title mb-7">Senior-level thinking with disciplined execution.</h2>
-        <p class="text-[#60758A] text-lg leading-8 mb-8">
-          We focus on the SEO activities most likely to create measurable commercial impact. Every recommendation is prioritized, explained and connected to a clear objective.
-        </p>
-        <a href="about.html" class="btn-secondary">Discover Our Approach <i class="fa-solid fa-arrow-right"></i></a>
-      </div>
+<section class="py-20 px-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="text-center mb-14">
+      <h2 class="text-4xl md:text-5xl font-black mb-4 deep-text display">
+        Simple <span class="violet-text">Work Process</span>
+      </h2>
+      <p class="text-[#3E3352] max-w-3xl mx-auto">
+        A clear process for guest posting, link building, SEO audit and authority growth.
+      </p>
+    </div>
 
-      <div class="feature-panel reveal">
-        <div class="feature-row">
-          <span class="check"><i class="fa-solid fa-check"></i></span>
-          <div><h3 class="text-xl font-bold text-[#071B33] mb-2">Commercially aligned strategy</h3><p class="text-[#60758A] leading-7">Campaign priorities are connected to market opportunity, customer value and growth potential.</p></div>
-        </div>
-        <div class="feature-row">
-          <span class="check"><i class="fa-solid fa-check"></i></span>
-          <div><h3 class="text-xl font-bold text-[#071B33] mb-2">Transparent decision-making</h3><p class="text-[#60758A] leading-7">You receive understandable recommendations, clear priorities and direct visibility into progress.</p></div>
-        </div>
-        <div class="feature-row">
-          <span class="check"><i class="fa-solid fa-check"></i></span>
-          <div><h3 class="text-xl font-bold text-[#071B33] mb-2">Quality-controlled delivery</h3><p class="text-[#60758A] leading-7">Technical changes, content assets and authority activity are reviewed against defined standards.</p></div>
-        </div>
-        <div class="feature-row">
-          <span class="check"><i class="fa-solid fa-check"></i></span>
-          <div><h3 class="text-xl font-bold text-[#071B33] mb-2">Continuous optimization</h3><p class="text-[#60758A] leading-7">Performance data informs new decisions so your organic growth system keeps improving.</p></div>
-        </div>
-      </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-5 text-center">
+      <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black violet-text mb-3 display">01</div><h3 class="font-black mb-2">Audit</h3><p class="text-sm text-gray-600">We review your website.</p></div>
+      <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black violet-text mb-3 display">02</div><h3 class="font-black mb-2">Strategy</h3><p class="text-sm text-gray-600">We plan links and anchors.</p></div>
+      <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black violet-text mb-3 display">03</div><h3 class="font-black mb-2">Outreach</h3><p class="text-sm text-gray-600">We find quality websites.</p></div>
+      <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black violet-text mb-3 display">04</div><h3 class="font-black mb-2">Content</h3><p class="text-sm text-gray-600">We create SEO content.</p></div>
+      <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black violet-text mb-3 display">05</div><h3 class="font-black mb-2">Placement</h3><p class="text-sm text-gray-600">Links go live.</p></div>
+      <div class="glass-card rounded-2xl p-6"><div class="text-3xl font-black violet-text mb-3 display">06</div><h3 class="font-black mb-2">Report</h3><p class="text-sm text-gray-600">You receive URLs.</p></div>
     </div>
   </div>
 </section>
 
-<section id="process" class="py-24 bg-[#ECF8F8] border-y border-[#0D3A63]/[.08]">
-  <div class="container-custom">
-    <div class="max-w-3xl mb-14 reveal">
-      <p class="section-tag mb-4">The SEOnest Framework</p>
-      <h2 class="section-title mb-5">A clear path from insight to compounding growth.</h2>
-      <p class="text-[#60758A] text-lg leading-8">We create clarity before execution and use performance data to improve every stage of the program.</p>
-    </div>
+<section class="py-20 px-6">
+  <div class="max-w-6xl mx-auto p-10 md:p-14 text-center rounded-[34px]" style="background:linear-gradient(135deg,#6D28D9,#B8B8C8);color:#12112B;">
+    <h2 class="text-4xl md:text-5xl font-black mb-5 display">Ready To Improve Your Website Authority?</h2>
+    <p class="text-lg max-w-3xl mx-auto mb-8 font-semibold">
+      Share your website URL and target keywords. We will suggest the best guest posting, link building or SEO growth strategy.
+    </p>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
-      <article class="process-card reveal"><div class="process-number">01</div><h3 class="text-xl font-bold text-[#071B33] mb-3">Discover</h3><p class="text-[#60758A] leading-7">We understand your business, audience, competitors, priorities and existing performance.</p></article>
-      <article class="process-card reveal"><div class="process-number">02</div><h3 class="text-xl font-bold text-[#071B33] mb-3">Diagnose</h3><p class="text-[#60758A] leading-7">Technical, content and authority analysis reveals barriers and high-value opportunities.</p></article>
-      <article class="process-card reveal"><div class="process-number">03</div><h3 class="text-xl font-bold text-[#071B33] mb-3">Deploy</h3><p class="text-[#60758A] leading-7">Prioritized initiatives are implemented with clear ownership, quality control and timelines.</p></article>
-      <article class="process-card reveal"><div class="process-number">04</div><h3 class="text-xl font-bold text-[#071B33] mb-3">Compound</h3><p class="text-[#60758A] leading-7">We review outcomes, identify new opportunities and continuously improve the program.</p></article>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="contact.html" class="bg-[#12112B] text-white px-8 py-4 rounded-full font-black hover:scale-105 transition">Contact Us</a>
+      <a href="services.html" class="bg-white text-[#12112B] px-8 py-4 rounded-full font-black hover:scale-105 transition">View Services</a>
+      <a href="FAQs.html" class="bg-[#12112B]/85 text-white px-8 py-4 rounded-full font-black hover:scale-105 transition">Read FAQ</a>
     </div>
   </div>
 </section>
 
-<section class="result-band py-20">
-  <div class="container-custom relative z-10">
-    <div class="grid lg:grid-cols-[.82fr_1.18fr] gap-12 items-center">
-      <div class="reveal">
-        <p class="text-[#F9D87A] uppercase tracking-[.18em] text-xs font-black mb-4">Performance That Matters</p>
-        <h2 class="text-4xl md:text-5xl font-extrabold tracking-[-.04em] mb-5">Built around the metrics behind real business growth.</h2>
-        <p class="text-[#C9DDE7] leading-8">We connect visibility, qualified traffic, engagement and conversion outcomes instead of treating rankings as the only measure of success.</p>
-      </div>
-
-      <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <div class="stat-box reveal"><p class="text-3xl md:text-4xl font-display font-bold text-[#F6C453] mb-2">360°</p><p class="text-sm text-[#D4E3EB]">Search strategy coverage</p></div>
-        <div class="stat-box reveal"><p class="text-3xl md:text-4xl font-display font-bold text-[#F6C453] mb-2">24/7</p><p class="text-sm text-[#D4E3EB]">Performance visibility</p></div>
-        <div class="stat-box reveal"><p class="text-3xl md:text-4xl font-display font-bold text-[#F6C453] mb-2">100%</p><p class="text-sm text-[#D4E3EB]">Customized roadmaps</p></div>
-        <div class="stat-box reveal"><p class="text-3xl md:text-4xl font-display font-bold text-[#F6C453] mb-2">Global</p><p class="text-sm text-[#D4E3EB]">Campaign capability</p></div>
-      </div>
-    </div>
+<div class="floating-contact">
+  <div class="contact-options">
+    <a href="https://wa.me/923074646927" target="_blank" class="float-btn bg-green-500"><i class="fab fa-whatsapp text-2xl"></i></a>
+    <a href="mailto:ceo@seonest.online" class="float-btn" style="background:#6D28D9;"><i class="fas fa-envelope text-2xl"></i></a>
+    <a href="https://t.me/Nadeemmayos" target="_blank" class="float-btn bg-sky-500"><i class="fab fa-telegram-plane text-2xl"></i></a>
+    <a href="https://www.linkedin.com/in/menadeemmayo/" target="_blank" class="float-btn bg-blue-700"><i class="fab fa-linkedin-in text-2xl"></i></a>
+    <a href="https://x.com/Nadeem_seo" target="_blank" class="float-btn bg-black"><i class="fab fa-x-twitter text-2xl"></i></a>
   </div>
-</section>
-
-<section id="pricing" class="py-24 md:py-32">
-  <div class="container-custom">
-    <div class="text-center max-w-3xl mx-auto mb-14 reveal">
-      <p class="section-tag mb-4">Engagement Solutions</p>
-      <h2 class="section-title mb-5">Choose the level of SEO support your growth requires.</h2>
-      <p class="text-[#60758A] text-lg leading-8">Final scope and investment are tailored after reviewing your website, competition and business goals.</p>
-    </div>
-
-    <div class="grid lg:grid-cols-3 gap-6">
-      <article class="price-card reveal">
-        <p class="text-[#60758A] text-xs font-extrabold uppercase tracking-[.16em] mb-4">SEO Foundation</p>
-        <h3 class="text-3xl font-bold text-[#071B33] mb-3">Clarity & Direction</h3>
-        <p class="text-[#60758A] leading-7 mb-7">For businesses that need a complete assessment and a prioritized roadmap before ongoing implementation.</p>
-        <ul class="space-y-4 text-sm text-[#29465F] mb-9">
-          <li><i class="fa-solid fa-check text-[#008F87] mr-3"></i>Technical SEO assessment</li>
-          <li><i class="fa-solid fa-check text-[#008F87] mr-3"></i>Search opportunity research</li>
-          <li><i class="fa-solid fa-check text-[#008F87] mr-3"></i>Competitor gap analysis</li>
-          <li><i class="fa-solid fa-check text-[#008F87] mr-3"></i>Prioritized growth roadmap</li>
-        </ul>
-        <a href="contact.html" class="btn-secondary w-full">Request Assessment</a>
-      </article>
-
-      <article class="price-card featured reveal">
-        <span class="popular">Most Popular</span>
-        <p class="text-[#A7C9D4] text-xs font-extrabold uppercase tracking-[.16em] mb-4">Growth Partnership</p>
-        <h3 class="text-3xl font-bold mb-3">Ongoing SEO Management</h3>
-        <p class="text-[#C8D9E4] leading-7 mb-7">A complete monthly program combining strategy, implementation, content development and performance optimization.</p>
-        <ul class="space-y-4 text-sm text-[#E4EEF3] mb-9">
-          <li><i class="fa-solid fa-check text-[#5CE1E6] mr-3"></i>Dedicated SEO strategy</li>
-          <li><i class="fa-solid fa-check text-[#5CE1E6] mr-3"></i>Technical implementation</li>
-          <li><i class="fa-solid fa-check text-[#5CE1E6] mr-3"></i>Content planning and optimization</li>
-          <li><i class="fa-solid fa-check text-[#5CE1E6] mr-3"></i>Authority development</li>
-          <li><i class="fa-solid fa-check text-[#5CE1E6] mr-3"></i>Monthly insights and reporting</li>
-        </ul>
-        <a href="contact.html" class="btn-primary w-full">Discuss Your Growth Plan</a>
-      </article>
-
-      <article class="price-card reveal">
-        <p class="text-[#60758A] text-xs font-extrabold uppercase tracking-[.16em] mb-4">Enterprise SEO</p>
-        <h3 class="text-3xl font-bold text-[#071B33] mb-3">Complex Search Growth</h3>
-        <p class="text-[#60758A] leading-7 mb-7">Advanced support for large websites, competitive categories, international markets and multi-team organizations.</p>
-        <ul class="space-y-4 text-sm text-[#29465F] mb-9">
-          <li><i class="fa-solid fa-check text-[#008F87] mr-3"></i>Enterprise technical SEO</li>
-          <li><i class="fa-solid fa-check text-[#008F87] mr-3"></i>International search strategy</li>
-          <li><i class="fa-solid fa-check text-[#008F87] mr-3"></i>Cross-team SEO governance</li>
-          <li><i class="fa-solid fa-check text-[#008F87] mr-3"></i>Custom analytics and reporting</li>
-        </ul>
-        <a href="contact.html" class="btn-secondary w-full">Speak With a Strategist</a>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="py-24 bg-white border-y border-[#0D3A63]/[.08]">
-  <div class="container-custom">
-    <div class="grid lg:grid-cols-[.72fr_1.28fr] gap-12">
-      <div class="reveal">
-        <p class="section-tag mb-4">Client Experience</p>
-        <h2 class="section-title mb-5">A strategic partner, not another task-based vendor.</h2>
-        <p class="text-[#60758A] leading-8">SEOnest is built for teams that value clear thinking, dependable communication and measurable progress.</p>
-      </div>
-
-      <div class="grid md:grid-cols-2 gap-5">
-        <article class="testimonial reveal">
-          <div class="text-[#D5A839] text-sm mb-5"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
-          <p class="text-[#29465F] leading-8 mb-7">Clear priorities, practical recommendations and a growth plan that connects SEO activity with wider marketing objectives.</p>
-          <p class="font-bold text-[#071B33]">What clients value</p>
-          <p class="text-sm text-[#60758A]">Strategic clarity</p>
-        </article>
-
-        <article class="testimonial reveal">
-          <div class="text-[#D5A839] text-sm mb-5"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></div>
-          <p class="text-[#29465F] leading-8 mb-7">Complex SEO issues explained in a practical way, with direct visibility into what is being done and why it matters.</p>
-          <p class="font-bold text-[#071B33]">What clients value</p>
-          <p class="text-sm text-[#60758A]">Transparent communication</p>
-        </article>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="faq" class="py-24 md:py-32">
-  <div class="container-custom">
-    <div class="grid lg:grid-cols-[.72fr_1.28fr] gap-14">
-      <div class="reveal">
-        <p class="section-tag mb-4">Common Questions</p>
-        <h2 class="section-title mb-6">What to know before starting an SEO partnership.</h2>
-        <p class="text-[#60758A] leading-8 mb-8">Every website and market is different. These answers explain how our work is generally structured.</p>
-        <a href="contact.html" class="btn-secondary">Ask a Specific Question <i class="fa-solid fa-message"></i></a>
-      </div>
-
-      <div>
-        <div class="faq-item active reveal">
-          <button class="faq-button" type="button"><span>How long does SEO take to produce meaningful results?</span><i class="fa-solid fa-plus faq-icon"></i></button>
-          <div class="faq-answer"><p>Timelines depend on website history, competition, technical condition, content quality and available resources. Early improvements may appear quickly, while stronger organic growth usually develops over several months of consistent work.</p></div>
-        </div>
-        <div class="faq-item reveal">
-          <button class="faq-button" type="button"><span>Do you provide the same SEO package to every client?</span><i class="fa-solid fa-plus faq-icon"></i></button>
-          <div class="faq-answer"><p>No. Priorities are defined after reviewing your goals, search opportunity, competition and current performance. Each engagement is scoped around the areas most likely to create value.</p></div>
-        </div>
-        <div class="faq-item reveal">
-          <button class="faq-button" type="button"><span>Can SEOnest work with an internal marketing team?</span><i class="fa-solid fa-plus faq-icon"></i></button>
-          <div class="faq-answer"><p>Yes. We can work alongside internal marketing, development, content and leadership teams with clear roles, responsibilities and approval workflows.</p></div>
-        </div>
-        <div class="faq-item reveal">
-          <button class="faq-button" type="button"><span>How do you report SEO performance?</span><i class="fa-solid fa-plus faq-icon"></i></button>
-          <div class="faq-answer"><p>Reporting may include technical progress, visibility, keyword movement, organic traffic, conversions, completed work and strategic next steps. We focus on useful insights, not reporting volume alone.</p></div>
-        </div>
-        <div class="faq-item reveal">
-          <button class="faq-button" type="button"><span>Do you guarantee first-page rankings?</span><i class="fa-solid fa-plus faq-icon"></i></button>
-          <div class="faq-answer"><p>No responsible agency can guarantee a specific ranking because search engines, competitors and algorithm changes remain outside an agency's control. We commit to strong strategy, transparent execution and continuous improvement.</p></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="pb-24 md:pb-32">
-  <div class="container-custom">
-    <div class="cta px-7 py-14 md:p-16 reveal">
-      <div class="grid lg:grid-cols-[1fr_auto] gap-10 items-center">
-        <div>
-          <p class="text-[#FFF0B7] uppercase tracking-[.18em] text-xs font-black mb-4">Build Your Organic Advantage</p>
-          <h2 class="text-4xl md:text-6xl font-extrabold tracking-[-.045em] leading-[1.08] mb-5">Turn search demand into a dependable growth channel.</h2>
-          <p class="text-[#E3F4F3] text-lg leading-8 max-w-3xl">Share your website, target market and goals. We will assess the opportunity and recommend a focused SEO path forward.</p>
-        </div>
-        <a href="contact.html" class="btn-primary whitespace-nowrap">Request a Consultation <i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<div class="floating-contact" id="floatingContact">
-  <div class="contact-list">
-    <a href="https://wa.me/923074646927" target="_blank" rel="noopener" class="contact-circle bg-[#25D366]" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp text-xl"></i></a>
-    <a href="mailto:hello@seonest.online" class="contact-circle bg-[#008F87]" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-    <a href="https://t.me/Nadeemmayos" target="_blank" rel="noopener" class="contact-circle bg-[#229ED9]" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
-    <a href="https://www.linkedin.com/in/menadeemmayo/" target="_blank" rel="noopener" class="contact-circle bg-[#0077B5]" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-    <a href="https://x.com/Nadeem_seo" target="_blank" rel="noopener" class="contact-circle bg-[#29465F]" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
-  </div>
-  <button id="contactTrigger" class="contact-trigger" type="button" aria-label="Open contact options" aria-expanded="false"><i class="fa-solid fa-message"></i></button>
+  <button class="text-[#12112B] w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:rotate-12 transition" style="background:#B8B8C8;">
+    <i class="fas fa-comments text-3xl"></i>
+  </button>
 </div>
 
-<footer class="pt-20 pb-8">
-  <div class="container-custom">
-    <div class="grid md:grid-cols-2 lg:grid-cols-[1.35fr_.7fr_.7fr_1.1fr] gap-12 pb-14">
-      <div>
-        <a href="index.html" class="inline-flex items-center gap-3 mb-6">
-          <span class="brand-symbol"></span>
-          <span class="text-[25px] font-display font-extrabold">SEO<span class="text-[#5CE1E6]">nest</span></span>
-        </a>
+<footer class="pt-16 pb-8 px-6 text-white" style="background:#12112B;border-top:1px solid rgba(184,184,200,.22);">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-10 border-b border-violet-400/10 pb-12">
 
-        <p class="text-[#BBD0DF] leading-7 max-w-md mb-7">A premium SEO agency helping ambitious companies build stronger organic visibility, qualified demand and long-term digital growth.</p>
+    <div>
+      <h3 class="text-2xl font-black mb-5 display">SEO<span class="violet-text">NEST</span></h3>
+      <p class="text-violet-100 mb-5">Premium guest posting, link building, niche edits and authority backlink services for businesses worldwide.</p>
 
-        <div class="flex gap-3 mb-6">
-          <a href="https://www.linkedin.com/in/menadeemmayo/" target="_blank" rel="noopener" class="w-11 h-11 rounded-xl border border-white/10 bg-white/5 grid place-items-center hover:text-[#5CE1E6] transition" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://x.com/Nadeem_seo" target="_blank" rel="noopener" class="w-11 h-11 rounded-xl border border-white/10 bg-white/5 grid place-items-center hover:text-[#5CE1E6] transition" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="https://wa.me/923074646927" target="_blank" rel="noopener" class="w-11 h-11 rounded-xl border border-white/10 bg-white/5 grid place-items-center hover:text-[#5CE1E6] transition" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-          <a href="https://t.me/Nadeemmayos" target="_blank" rel="noopener" class="w-11 h-11 rounded-xl border border-white/10 bg-white/5 grid place-items-center hover:text-[#5CE1E6] transition" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
-          <a href="https://www.facebook.com/share/19aDt6pcgh/" target="_blank" rel="noopener" class="w-11 h-11 rounded-xl border border-white/10 bg-white/5 grid place-items-center hover:text-[#5CE1E6] transition" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-        </div>
-
-        <div class="flex flex-wrap gap-3">
-          <a href="https://www.fiverr.com/nadeem_mayo" target="_blank" rel="noopener" class="px-4 py-2 rounded-lg bg-[#1DBF73] text-white text-sm font-extrabold">Fiverr</a>
-          <a href="https://upwork.com/freelancers/~01929269c0cf45d7c1" target="_blank" rel="noopener" class="px-4 py-2 rounded-lg bg-[#14A800] text-white text-sm font-extrabold">Upwork</a>
-        </div>
+      <div class="flex gap-4 text-2xl mb-5">
+        <a href="https://www.linkedin.com/in/menadeemmayo" target="_blank" class="hover:text-violet-300"><i class="fab fa-linkedin"></i></a>
+        <a href="https://wa.me/923074646927" target="_blank" class="hover:text-green-400"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://t.me/Nadeemmayos" target="_blank" class="hover:text-sky-400"><i class="fab fa-telegram"></i></a>
+        <a href="https://www.facebook.com/share/19aDt6pcgh/" target="_blank" class="hover:text-blue-400"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/Nadeem_seo" target="_blank" class="hover:text-white"><i class="fab fa-x-twitter"></i></a>
       </div>
 
-      <div>
-        <h3 class="text-lg font-bold mb-6">Company</h3>
-        <ul class="space-y-4 text-sm">
-          <li><a href="about.html" class="footer-link">About</a></li>
-          <li><a href="services.html" class="footer-link">Services</a></li>
-          <li><a href="portfolio.html" class="footer-link">Portfolio</a></li>
-          <li><a href="all-niches-sites.html" class="footer-link">All Niches</a></li>
-          <li><a href="blog.html" class="footer-link">Blog</a></li>
-          <li><a href="contact.html" class="footer-link">Contact</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="text-lg font-bold mb-6">Legal</h3>
-        <ul class="space-y-4 text-sm">
-          <li><a href="privacy-policy.html" class="footer-link">Privacy Policy</a></li>
-          <li><a href="terms-of-use.html" class="footer-link">Terms of Use</a></li>
-          <li><a href="refund-policy.html" class="footer-link">Refund Policy</a></li>
-          <li><a href="sitemap.xml" class="footer-link">Sitemap</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3 class="text-lg font-bold mb-6">Contact & Payments</h3>
-        <ul class="space-y-4 text-sm text-[#BBD0DF] mb-7">
-          <li class="flex gap-3"><i class="fa-solid fa-envelope text-[#5CE1E6] mt-1"></i><a href="mailto:hello@seonest.online" class="footer-link">hello@seonest.online</a></li>
-          <li class="flex gap-3"><i class="fa-solid fa-envelope text-[#5CE1E6] mt-1"></i><a href="mailto:nadeemonlin@gmail.com" class="footer-link">nadeemonlin@gmail.com</a></li>
-          <li class="flex gap-3"><i class="fa-brands fa-whatsapp text-[#5CE1E6] mt-1"></i><a href="https://wa.me/923074646927" target="_blank" rel="noopener" class="footer-link">+92 307 4646927</a></li>
-          <li class="flex gap-3"><i class="fa-solid fa-earth-americas text-[#5CE1E6] mt-1"></i><span>Serving clients worldwide</span></li>
-        </ul>
-
-        <p class="text-xs font-extrabold uppercase tracking-[.16em] text-[#8FAABC] mb-3">We Accept</p>
-        <div class="flex flex-wrap gap-3 items-center">
-          <span class="payment-badge"><img src="https://img.icons8.com/color/96/paypal.png" alt="PayPal" class="h-7"></span>
-          <span class="payment-badge"><img src="https://img.icons8.com/color/96/payoneer.png" alt="Payoneer" class="h-7"></span>
-          <span class="payment-badge"><img src="https://img.icons8.com/color/96/visa.png" alt="Visa" class="h-6"></span>
-          <span class="payment-badge"><img src="https://img.icons8.com/color/96/mastercard-logo.png" alt="Mastercard" class="h-7"></span>
-        </div>
+      <div class="flex flex-wrap gap-3">
+        <a href="https://www.fiverr.com/nadeem_mayo" target="_blank" class="bg-[#1dbf73] text-white text-sm font-bold py-2 px-4 rounded-md">Fiverr</a>
+        <a href="https://upwork.com/freelancers/~01929269c0cf45d7c1" target="_blank" class="bg-[#14a800] text-white text-sm font-bold py-2 px-4 rounded-md">Upwork</a>
       </div>
     </div>
 
-    <div class="flex flex-col md:flex-row justify-between items-center gap-5 pt-8 border-t border-white/[.08] text-sm text-[#8FAABC]">
-      <p>© 2026 SEOnest. All rights reserved.</p>
-      <div class="flex flex-wrap justify-center gap-5">
-        <a href="privacy-policy.html" class="footer-link">Privacy Policy</a>
-        <a href="terms-of-use.html" class="footer-link">Terms of Use</a>
-        <a href="refund-policy.html" class="footer-link">Refund Policy</a>
+    <div>
+      <h3 class="text-xl font-bold mb-5 platinum-text">Quick Links</h3>
+      <ul class="text-violet-100 space-y-3">
+        <li><a href="services.html" class="hover:text-violet-300">Services</a></li>
+        <li><a href="portfolio.html" class="hover:text-violet-300">Portfolio</a></li>
+        <li><a href="all-niches-sites.html" class="hover:text-violet-300">All Niches</a></li>
+        <li><a href="blog.html" class="hover:text-violet-300">Blog</a></li>
+        <li><a href="FAQs.html" class="hover:text-violet-300">FAQ</a></li>
+        <li><a href="contact.html" class="hover:text-violet-300">Order Now</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-bold mb-5 platinum-text">Legal</h3>
+      <ul class="text-violet-100 space-y-3">
+        <li><a href="privacy-policy.html" class="hover:text-violet-300">Privacy Policy</a></li>
+        <li><a href="terms-of-use.html" class="hover:text-violet-300">Terms of Use</a></li>
+        <li><a href="refund-policy.html" class="hover:text-violet-300">Refund Policy</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-xl font-bold mb-5 platinum-text">Contact Info</h3>
+
+      <p class="text-violet-100 mb-3"><i class="fas fa-envelope mr-2 platinum-text"></i><a href="mailto:ceo@seonest.online" class="hover:text-violet-300">ceo@seonest.online</a></p>
+      <p class="text-violet-100 mb-3"><i class="fas fa-envelope mr-2 platinum-text"></i><a href="mailto:nadeemonlin@gmail.com" class="hover:text-violet-300">nadeemonlin@gmail.com</a></p>
+      <p class="text-violet-100 mb-6"><i class="fab fa-whatsapp mr-2 platinum-text"></i><a href="https://wa.me/923074646927" target="_blank" class="hover:text-green-400">+92 307 4646927</a></p>
+
+      <p class="text-xs font-bold uppercase text-violet-200 mb-3 tracking-widest">We Accept</p>
+      <div class="flex flex-wrap gap-3 items-center">
+        <img src="https://img.icons8.com/color/96/paypal.png" alt="PayPal" class="h-7">
+        <img src="https://img.icons8.com/color/96/payoneer.png" alt="Payoneer" class="h-7">
+        <img src="https://img.icons8.com/color/96/visa.png" alt="Visa" class="h-6">
+        <img src="https://img.icons8.com/color/96/mastercard-logo.png" alt="Mastercard" class="h-7">
       </div>
     </div>
+
   </div>
+
+  <p class="text-center mt-8 text-violet-200 text-sm">© 2026 SEONest SEO Agency. All Rights Reserved.</p>
 </footer>
 
 <script>
-  const mobileMenuButton = document.getElementById("mobileMenuButton");
-  const mobileMenu = document.getElementById("mobileMenu");
-
-  if (mobileMenuButton && mobileMenu) {
-    mobileMenuButton.addEventListener("click", () => {
-      const open = mobileMenu.classList.toggle("active");
-      mobileMenuButton.setAttribute("aria-expanded", String(open));
-      mobileMenuButton.innerHTML = open
-        ? '<i class="fa-solid fa-xmark"></i>'
-        : '<i class="fa-solid fa-bars"></i>';
-    });
-
-    mobileMenu.querySelectorAll("a").forEach(link => {
-      link.addEventListener("click", () => {
-        mobileMenu.classList.remove("active");
-        mobileMenuButton.setAttribute("aria-expanded", "false");
-        mobileMenuButton.innerHTML = '<i class="fa-solid fa-bars"></i>';
-      });
+  const menuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileMenu = document.querySelector('.mobile-menu');
+  if (menuBtn && mobileMenu) {
+    menuBtn.addEventListener('click', function() {
+      mobileMenu.classList.toggle('active');
     });
   }
-
-  document.querySelectorAll(".faq-button").forEach(button => {
-    button.addEventListener("click", () => {
-      const item = button.closest(".faq-item");
-      const active = item.classList.contains("active");
-      document.querySelectorAll(".faq-item").forEach(faq => faq.classList.remove("active"));
-      if (!active) item.classList.add("active");
-    });
-  });
-
-  const contactTrigger = document.getElementById("contactTrigger");
-  const floatingContact = document.getElementById("floatingContact");
-
-  if (contactTrigger && floatingContact) {
-    contactTrigger.addEventListener("click", () => {
-      const open = floatingContact.classList.toggle("active");
-      contactTrigger.setAttribute("aria-expanded", String(open));
-    });
-  }
-
-  const revealObserver = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("visible");
-        revealObserver.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.12 });
-
-  document.querySelectorAll(".reveal").forEach(element => revealObserver.observe(element));
 </script>
 
 </body>
