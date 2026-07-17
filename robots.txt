@@ -1,1 +1,4 @@
-1
+User-agent: *
+Allow: /
+
+Sitemap: https://seonest.online/sitemap.xml
