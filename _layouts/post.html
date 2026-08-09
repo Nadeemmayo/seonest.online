@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>{{ page.meta_title | default: page.title | escape }}</title>
+
+<meta name="description" content="{{ page.meta_description | default: page.description | escape }}">
+
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<meta property="og:title" content="{{ page.meta_title | default: page.title | escape }}">
+<meta property="og:description" content="{{ page.meta_description | default: page.description | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="article">
+
+{% if page.thumbnail %}
+<meta property="og:image" content="{{ page.thumbnail | absolute_url }}">
+{% endif %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+body{
+margin:0;
+background:#F7F5F2;
+color:#160B2E;
+font-family:'Inter',sans-serif;
+}
+
+h1,h2,h3{
+font-family:'Fraunces',serif;
+}
+
+.article-header{
+background:linear-gradient(135deg,#12112B,#3B2470);
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+.article-header h1{
+font-size:48px;
+max-width:950px;
+margin:15px auto;
+line-height:1.15;
+}
+
+.category{
+color:#B8B8C8;
+font-weight:800;
+text-transform:uppercase;
+letter-spacing:2px;
+font-size:13px;
+}
+
+.article-meta{
+color:#ddd6fe;
+font-size:14px;
+margin-top:15px;
+}
+
+.featured-image{
+max-width:1000px;
+margin:45px auto 0;
+padding:0 20px;
+}
+
+.featured-image img{
+width:100%;
+max-height:560px;
+object-fit:cover;
+border-radius:28px;
+box-shadow:0 20px 50px rgba(22,11,46,.18);
+}
+
+.article-content{
+max-width:850px;
+margin:50px auto;
+padding:0 22px;
+font-size:18px;
+line-height:1.85;
+}
+
+.article-content h2{
+font-size:32px;
+margin-top:45px;
+color:#6D28D9;
+}
+
+.article-content h3{
+font-size:25px;
+margin-top:35px;
+}
+
+.article-content p{
+margin:18px 0;
+}
+
+.article-content a{
+color:#6D28D9;
+font-weight:700;
+text-decoration:underline;
+}
+
+.article-content img{
+max-width:100%;
+height:auto;
+border-radius:20px;
+}
+
+.article-content ul,
+.article-content ol{
+padding-left:28px;
+margin:20px 0;
+}
+
+.back-blog{
+text-align:center;
+margin:60px 0;
+}
+
+.back-blog a{
+display:inline-block;
+background:linear-gradient(135deg,#6D28D9,#B8B8C8);
+color:#12112B;
+font-weight:900;
+padding:15px 30px;
+border-radius:999px;
+text-decoration:none;
+}
+
+@media(max-width:768px){
+.article-header h1{
+font-size:34px;
+}
+.article-content{
+font-size:17px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header class="article-header">
+
+{% if page.category %}
+<div class="category">{{ page.category }}</div>
+{% endif %}
+
+<h1>{{ page.title }}</h1>
+
+<div class="article-meta">
+{% if page.author %}By {{ page.author }}{% endif %}
+{% if page.date %} • {{ page.date | date: "%B %d, %Y" }}{% endif %}
+</div>
+
+</header>
+
+{% if page.thumbnail %}
+<div class="featured-image">
+<img src="{{ page.thumbnail | relative_url }}"
+     alt="{{ page.thumbnail_alt | default: page.title | escape }}">
+</div>
+{% endif %}
+
+<main class="article-content">
+{{ content }}
+</main>
+
+<div class="back-blog">
+<a href="{{ '/blog.html' | relative_url }}">← Back to SEO Blog</a>
+</div>
+
+</body>
+</html>
