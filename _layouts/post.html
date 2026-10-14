@@ -2,180 +2,145 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>{{ page.meta_title | default: page.title | escape }}</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.meta_title | default: page.title | escape }} | SEONest</title>
 <meta name="description" content="{{ page.meta_description | default: page.description | escape }}">
-
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<meta property="og:site_name" content="SEONest">
 <meta property="og:title" content="{{ page.meta_title | default: page.title | escape }}">
 <meta property="og:description" content="{{ page.meta_description | default: page.description | escape }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:type" content="article">
-
-{% if page.thumbnail %}
-<meta property="og:image" content="{{ page.thumbnail | absolute_url }}">
-{% endif %}
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-<script src="https://cdn.tailwindcss.com"></script>
-
-<style>
-body{
-margin:0;
-background:#F7F5F2;
-color:#160B2E;
-font-family:'Inter',sans-serif;
+<meta property="og:image" {% if page.thumbnail %}content="{{ page.thumbnail | absolute_url }}"{% else %}content="https://seonest.online/assets/img/og-image.png"{% endif %}>
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.meta_title | default: page.title | escape }}">
+<meta name="twitter:description" content="{{ page.meta_description | default: page.description | escape }}">
+<meta name="twitter:image" {% if page.thumbnail %}content="{{ page.thumbnail | absolute_url }}"{% else %}content="https://seonest.online/assets/img/og-image.png"{% endif %}>
+<link rel="preload" href="/assets/fonts/outfit-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/vendor/fontawesome/css/all.min.css">
+<link rel="stylesheet" href="/assets/css/site.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6THLBMXBK"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-Y6THLBMXBK');</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "ProfessionalService",
+   "@id": "https://seonest.online/#organization",
+   "name": "SEONest",
+   "url": "https://seonest.online/",
+   "logo": "https://seonest.online/assets/img/logo.png",
+   "image": "https://seonest.online/assets/img/og-image.png",
+   "description": "SEONest is a digital growth agency helping small and growing businesses win customers through SEO, link building, websites and paid ads.",
+   "email": "ceo@seonest.online",
+   "telephone": "+923074646927",
+   "founder": {
+    "@type": "Person",
+    "name": "Nadeem Mayo"
+   },
+   "areaServed": [
+    "United States",
+    "United Kingdom",
+    "Canada",
+    "Australia"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lahore",
+    "addressCountry": "PK"
+   },
+   "sameAs": [
+    "https://www.linkedin.com/in/menadeemmayos/",
+    "https://www.facebook.com/share/19aDt6pcgh/",
+    "https://x.com/Nadeem_seo",
+    "https://www.instagram.com/menadeemmayo",
+    "https://www.fiverr.com/nadeem_mayo"
+   ]
+  }
+ ]
 }
-
-h1,h2,h3{
-font-family:'Fraunces',serif;
-}
-
-.article-header{
-background:linear-gradient(135deg,#12112B,#3B2470);
-color:white;
-padding:80px 20px;
-text-align:center;
-}
-
-.article-header h1{
-font-size:48px;
-max-width:950px;
-margin:15px auto;
-line-height:1.15;
-}
-
-.category{
-color:#B8B8C8;
-font-weight:800;
-text-transform:uppercase;
-letter-spacing:2px;
-font-size:13px;
-}
-
-.article-meta{
-color:#ddd6fe;
-font-size:14px;
-margin-top:15px;
-}
-
-.featured-image{
-max-width:1000px;
-margin:45px auto 0;
-padding:0 20px;
-}
-
-.featured-image img{
-width:100%;
-max-height:560px;
-object-fit:cover;
-border-radius:28px;
-box-shadow:0 20px 50px rgba(22,11,46,.18);
-}
-
-.article-content{
-max-width:850px;
-margin:50px auto;
-padding:0 22px;
-font-size:18px;
-line-height:1.85;
-}
-
-.article-content h2{
-font-size:32px;
-margin-top:45px;
-color:#6D28D9;
-}
-
-.article-content h3{
-font-size:25px;
-margin-top:35px;
-}
-
-.article-content p{
-margin:18px 0;
-}
-
-.article-content a{
-color:#6D28D9;
-font-weight:700;
-text-decoration:underline;
-}
-
-.article-content img{
-max-width:100%;
-height:auto;
-border-radius:20px;
-}
-
-.article-content ul,
-.article-content ol{
-padding-left:28px;
-margin:20px 0;
-}
-
-.back-blog{
-text-align:center;
-margin:60px 0;
-}
-
-.back-blog a{
-display:inline-block;
-background:linear-gradient(135deg,#6D28D9,#B8B8C8);
-color:#12112B;
-font-weight:900;
-padding:15px 30px;
-border-radius:999px;
-text-decoration:none;
-}
-
-@media(max-width:768px){
-.article-header h1{
-font-size:34px;
-}
-.article-content{
-font-size:17px;
-}
-}
-</style>
+</script>
 </head>
-
-<body>
-
-<header class="article-header">
-
-{% if page.category %}
-<div class="category">{{ page.category }}</div>
-{% endif %}
-
-<h1>{{ page.title }}</h1>
-
-<div class="article-meta">
-{% if page.author %}By {{ page.author }}{% endif %}
-{% if page.date %} • {{ page.date | date: "%B %d, %Y" }}{% endif %}
-</div>
-
+<body class="light cards-shadow">
+<header class="site-header">
+  <div class="topbar"><div class="wrap">
+    <span>Search, web & ads for small and growing businesses in the US, UK & Canada</span>
+    <div class="topbar-links"><a href="mailto:ceo@seonest.online"><i class="fas fa-envelope"></i>ceo@seonest.online</a><a href="https://wa.me/923074646927" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i>+92 307 4646927</a></div>
+  </div></div>
+  <div class="wrap nav">
+    <a href="/" class="brand" aria-label="SEONest home"><svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="lgh" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0E7C66"/><stop offset="1" stop-color="#14B8A6"/></linearGradient></defs><path d="M24 1.5 44 13v22L24 46.5 4 35V13Z" fill="url(#lgh)"/><path d="M24 11 35 17.5v13L24 37 13 30.5v-13Z" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 26.5 24 30l6-3.5" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 30v-9" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="m20.5 24.5 3.5-3.5 3.5 3.5" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="brand-text"><span class="brand-name">SEO<span>Nest</span></span><span class="brand-tag">Grow from the ground up</span></span></a>
+    <nav class="nav-links" aria-label="Main">
+      <a class="nav-link" href="/">Home</a>
+      <div class="has-menu">
+        <button class="nav-link" type="button" aria-expanded="false">Services <i class="fas fa-chevron-down"></i></button>
+        <div class="menu"><div class="mega"><div class="menu-col"><h4>Search (SEO)</h4><a href="/complete-seo.html"><i class="fas fa-magnifying-glass-chart" aria-hidden="true"></i>Complete SEO</a><a href="/on-page-seo.html"><i class="fas fa-file-lines" aria-hidden="true"></i>On-Page SEO</a><a href="/off-page-seo.html"><i class="fas fa-link" aria-hidden="true"></i>Off-Page SEO</a><a href="/technical-seo.html"><i class="fas fa-gears" aria-hidden="true"></i>Technical SEO</a><a href="/local-seo.html"><i class="fas fa-location-dot" aria-hidden="true"></i>Local SEO</a><a href="/link-building.html"><i class="fas fa-newspaper" aria-hidden="true"></i>Link Building & Guest Posting</a><a href="/content-writing.html"><i class="fas fa-pen-nib" aria-hidden="true"></i>SEO Content Writing</a></div><div class="menu-col"><h4>Web Development</h4><a href="/web-development.html"><i class="fas fa-code" aria-hidden="true"></i>Web Development</a><a href="/custom-website.html"><i class="fas fa-laptop-code" aria-hidden="true"></i>Custom Website Design</a></div><div class="menu-col"><h4>Paid Ads</h4><a href="/google-ads.html"><i class="fa-brands fa-google" aria-hidden="true"></i>Google Ads</a><a href="/meta-ads.html"><i class="fa-brands fa-meta" aria-hidden="true"></i>Meta Ads</a><a href="/facebook-ads.html"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i>Facebook Ads</a><a href="/instagram-ads.html"><i class="fa-brands fa-instagram" aria-hidden="true"></i>Instagram Ads</a><a href="/tiktok-ads.html"><i class="fa-brands fa-tiktok" aria-hidden="true"></i>TikTok Ads</a></div></div>
+          <a href="/services.html" style="margin-top:14px;justify-content:center;background:var(--bg-tint);color:var(--brand)">View all services <i class="fas fa-arrow-right"></i></a></div>
+      </div>
+      <div class="has-menu"><button class="nav-link" type="button" aria-expanded="false">Inventory <i class="fas fa-chevron-down"></i></button><div class="menu menu-simple"><a href="/all-niches-sites.html"><i class="fas fa-layer-group" aria-hidden="true"></i>All Niche Sites</a></div></div>
+      <a class="nav-link" href="/portfolio.html">Portfolio</a>
+      <a class="nav-link" href="/about.html">About</a>
+      <a class="nav-link active" href="/blog.html">Blog</a>
+      <a class="nav-link" href="/FAQs.html">FAQ</a>
+      <a class="nav-link" href="/contact.html">Contact</a>
+      <a class="btn btn-accent mobile-cta" href="/contact.html">Free Growth Plan</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-primary btn-sm btn-header" href="/contact.html">Free Growth Plan</a>
+      <button class="burger" type="button" aria-label="Open menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    </div>
+  </div>
 </header>
-
-{% if page.thumbnail %}
-<div class="featured-image">
-<img src="{{ page.thumbnail | relative_url }}"
-     alt="{{ page.thumbnail_alt | default: page.title | escape }}">
-</div>
-{% endif %}
-
-<main class="article-content">
-{{ content }}
+<main>
+<section class="hero page-hero"><div class="wrap" style="max-width:860px">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><a href="/blog.html">Blog</a>{% if page.category %}<span>/</span><b>{{ page.category | escape }}</b>{% endif %}</nav>
+  {% if page.category %}<span class="eyebrow">{{ page.category | escape }}</span>{% endif %}
+  <h1 style="font-size:clamp(2rem,4vw,3rem)">{{ page.title | escape }}</h1>
+  {% if page.description %}<p class="lead">{{ page.description | escape }}</p>{% endif %}
+  <div class="post-meta" style="margin-top:18px"><span><i class="fas fa-user"></i> {{ page.author | default: "Nadeem Mayo" }}</span><span>·</span><span>{{ page.date | date: "%B %d, %Y" }}</span></div>
+</div></section>
+<section class="section"><article class="wrap article">
+  {% if page.thumbnail %}<img src="{{ page.thumbnail | relative_url }}" alt="{{ page.thumbnail_alt | default: page.title | escape }}">{% endif %}
+  {{ content }}
+  <div class="article-cta"><div><h3>Want this done for your website?</h3><p>Get a free audit and a practical plan from the SEONest team.</p></div><a class="btn btn-primary" href="/contact.html">Free Growth Plan</a></div>
+  <p style="margin-top:32px"><a href="/blog.html" style="text-decoration:none;font-weight:700"><i class="fas fa-arrow-left"></i> Back to all articles</a></p>
+</article></section>
 </main>
-
-<div class="back-blog">
-<a href="{{ '/blog.html' | relative_url }}">← Back to SEO Blog</a>
-</div>
-
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="/" class="brand" aria-label="SEONest home"><svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="lgf" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0E7C66"/><stop offset="1" stop-color="#14B8A6"/></linearGradient></defs><path d="M24 1.5 44 13v22L24 46.5 4 35V13Z" fill="url(#lgf)"/><path d="M24 11 35 17.5v13L24 37 13 30.5v-13Z" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 26.5 24 30l6-3.5" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 30v-9" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/><path d="m20.5 24.5 3.5-3.5 3.5 3.5" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="brand-text"><span class="brand-name">SEO<span>Nest</span></span><span class="brand-tag">Grow from the ground up</span></span></a>
+        <p>SEONest helps small and growing businesses build a strong online home: findable on Google, fast to load and easy to buy from.</p>
+        <div class="socials"><a href="https://www.linkedin.com/in/menadeemmayos/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a><a href="https://www.facebook.com/share/19aDt6pcgh/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/menadeemmayo" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="https://x.com/Nadeem_seo" target="_blank" rel="noopener" aria-label="X"><i class="fab fa-x-twitter"></i></a><a href="https://t.me/Nadeemmayos" target="_blank" rel="noopener" aria-label="Telegram"><i class="fab fa-telegram"></i></a></div>
+        <div class="market-btns"><a href="https://www.fiverr.com/nadeem_mayo" target="_blank" rel="noopener">Hire on Fiverr</a><a href="https://upwork.com/freelancers/~01929269c0cf45d7c1" target="_blank" rel="noopener">Hire on Upwork</a></div>
+      </div>
+      <div><h4>SEO Services</h4><div class="footer-links"><a href="/complete-seo.html">Complete SEO</a><a href="/on-page-seo.html">On-Page SEO</a><a href="/off-page-seo.html">Off-Page SEO</a><a href="/technical-seo.html">Technical SEO</a><a href="/local-seo.html">Local SEO</a><a href="/link-building.html">Link Building & Guest Posting</a><a href="/content-writing.html">SEO Content Writing</a></div></div>
+      <div><h4>Web &amp; Ads</h4><div class="footer-links"><a href="/web-development.html">Web Development</a><a href="/custom-website.html">Custom Website Design</a><a href="/google-ads.html">Google Ads</a><a href="/meta-ads.html">Meta Ads</a><a href="/facebook-ads.html">Facebook Ads</a><a href="/instagram-ads.html">Instagram Ads</a><a href="/tiktok-ads.html">TikTok Ads</a></div></div>
+      <div><h4>Company</h4><div class="footer-links">
+        <a href="/about.html">About</a><a href="/portfolio.html">Portfolio</a><a href="/all-niches-sites.html">All Niche Sites</a><a href="/blog.html">Blog</a><a href="/FAQs.html">FAQ</a><a href="/contact.html">Contact</a>
+      </div></div>
+      <div><h4>Get in touch</h4>
+        <div class="footer-contact">
+          <a href="mailto:ceo@seonest.online"><i class="fas fa-envelope"></i>ceo@seonest.online</a><a href="mailto:nadeemonlin@gmail.com"><i class="fas fa-envelope-open"></i>nadeemonlin@gmail.com</a>
+          <a href="https://wa.me/923074646927" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i>+92 307 4646927</a>
+        </div>
+        <div class="pay"><span>PayPal</span><span>Payoneer</span><span>Wise</span><span>Visa</span><span>Mastercard</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 SEONest. All rights reserved.</span>
+      <nav aria-label="Legal"><a href="/privacy-policy.html">Privacy Policy</a><a href="/terms-of-use.html">Terms of Service</a><a href="/refund-policy.html">Refund Policy</a><a href="/sitemap.xml">Sitemap</a></nav>
+    </div>
+  </div>
+</footer>
+<a class="wa-float" href="https://wa.me/923074646927?text=Hi%20SEONest%2C%20I%27d%20like%20to%20discuss%20a%20project" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+<script src="/assets/js/site.js" defer></script>
 </body>
 </html>
