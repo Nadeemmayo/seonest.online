@@ -570,3 +570,4 @@ h1{letter-spacing:-.025em}
   .ph-initials{width:84px;height:84px;font-size:1.8rem}.ph-note{font-size:.6rem;letter-spacing:.12em}
 }
 @media (max-width:420px){.team-duo{grid-template-columns:1fr}.person-card{max-width:320px;margin:0 auto;width:100%}}
+.ts-avatar img{object-position:50% 22%}
