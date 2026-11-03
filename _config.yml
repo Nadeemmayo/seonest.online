@@ -1,12 +1,4 @@
 title: SEONest
 url: https://seonest.online
 baseurl: ""
-
-permalink: /blog/:title/
-
 markdown: kramdown
-
-plugins: []
-
-exclude:
-  - README.md
