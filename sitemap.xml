@@ -1,147 +1,408 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://seonest.online/</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/"/>
     <lastmod>2026-11-03</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://seonest.online/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/services.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/services.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/services.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/services.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/complete-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/complete-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/complete-seo.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/complete-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/complete-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/complete-seo.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/local-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/local-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/local-seo.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/local-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/local-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/local-seo.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/on-page-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/on-page-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/on-page-seo.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/on-page-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/on-page-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/on-page-seo.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/technical-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/technical-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/technical-seo.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/technical-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/technical-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/technical-seo.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/content-writing.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/content-writing.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/content-writing.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/content-writing.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/content-writing.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/content-writing.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/link-building.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/link-building.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/link-building.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/link-building.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/link-building.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/link-building.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/guest-posting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/guest-posting.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/guest-posting.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/guest-posting.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/guest-posting.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/guest-posting.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/off-page-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/off-page-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/off-page-seo.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/off-page-seo.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/off-page-seo.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/off-page-seo.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/google-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/google-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/google-ads.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/google-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/google-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/google-ads.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/meta-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/meta-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/meta-ads.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/meta-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/meta-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/meta-ads.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/facebook-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/facebook-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/facebook-ads.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/facebook-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/facebook-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/facebook-ads.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/instagram-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/instagram-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/instagram-ads.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/instagram-ads.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/instagram-ads.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/instagram-ads.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/web-development.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/web-development.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/web-development.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/web-development.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/web-development.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/web-development.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/custom-website.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/custom-website.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/custom-website.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/custom-website.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/custom-website.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/custom-website.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/ai-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/ai-automation.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/ai-automation.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/ai-automation.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/ai-automation.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/ai-automation.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://seonest.online/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/about.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/about.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/about.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/about.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/contact.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/contact.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/FAQs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/FAQs.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/FAQs.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/FAQs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/FAQs.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/FAQs.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/all-niches-sites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/all-niches-sites.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/all-niches-sites.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/all-niches-sites.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/all-niches-sites.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/all-niches-sites.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/portfolio.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/portfolio.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/portfolio.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/portfolio.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/blog.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/blog.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/blog-post-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/blog-post-1.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/blog-post-1.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/blog-post-1.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/blog-post-1.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/blog-post-1.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/blog-post-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/blog-post-2.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/blog-post-2.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/blog-post-2.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/blog-post-2.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/blog-post-2.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/blog-post-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/blog-post-3.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/blog-post-3.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/blog-post-3.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/blog-post-3.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/blog-post-3.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/privacy-policy.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/privacy-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/privacy-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/privacy-policy.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/terms-of-use.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/terms-of-use.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/terms-of-use.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/terms-of-use.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/terms-of-use.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/terms-of-use.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://seonest.online/refund-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/refund-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/refund-policy.html"/>
+    <lastmod>2026-11-03</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://seonest.online/hi/refund-policy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://seonest.online/refund-policy.html"/>
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://seonest.online/hi/refund-policy.html"/>
     <lastmod>2026-11-03</lastmod>
     <priority>0.7</priority>
   </url>
