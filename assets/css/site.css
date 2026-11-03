@@ -6,8 +6,8 @@
 @font-face{font-family:"Body";src:url(/assets/fonts/body-600.woff2) format("woff2");font-weight:600;font-display:swap}
 @font-face{font-family:"Body";src:url(/assets/fonts/body-700.woff2) format("woff2");font-weight:700;font-display:swap}
 :root{
- --ink:#2B1D17;--ink-2:#3F2C23;--deep:#2E1F1A;--deep-2:#5A3A2C;--gold:#E59A3A;--gold-2:#F8D7A2;--gold-ink:#8F5512;
- --bg:#FBF8F4;--paper:#FFFFFF;--muted:#665950;--line:#E9E0D7;--soft:#F5EEE6;
+ --ink:#2A0E1F;--ink-2:#45243A;--deep:#2A0A1E;--deep-2:#6B1748;--gold:#F472B6;--gold-2:#FBCFE8;--gold-ink:#BE185D;
+ --bg:#FCF8FA;--paper:#FFFFFF;--muted:#6A5763;--line:#F0E2EA;--soft:#F8EEF3;
  --r:18px;--r-sm:12px;--shadow:0 1px 2px rgba(15,25,60,.06),0 12px 32px -12px rgba(15,25,60,.18);
  --shadow-lg:0 30px 70px -30px rgba(10,20,60,.45);--max:1200px;
 }
