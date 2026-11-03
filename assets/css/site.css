@@ -387,3 +387,4 @@ h1,h2,h3,.legal p,.article p{overflow-wrap:break-word;hyphens:auto;-webkit-hyphe
 .soc .s-gmail{background:#fff!important;border:1px solid var(--line)!important}
 .soc span{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;color:#fff;cursor:default}
 .soc .s-tiktok{background:#0F1419!important}.soc .s-snapchat{background:#FFFC00!important;color:#111!important}.soc .s-whatsapp{background:#25D366!important}
+@media (min-width:961px){.duo3-m{position:relative;top:-96px}}
